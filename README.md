@@ -1,2 +1,33 @@
-# Secure-Password-Manager-
-A secure desktop application to store and manage passwords using Python. Built with Tkinter for GUI, SQLite for storage, and cryptography for AES-based encryption. The app uses a master password to control access and encrypts all stored credentials for local security.
+# 🔐 Secure Password Manager (Python + Tkinter)
+
+A simple, secure password manager with a graphical interface. Built using Python, it encrypts stored passwords using `cryptography` and saves them locally with `SQLite`.
+
+## ✨ Features
+
+- GUI using **Tkinter**
+- Local **SQLite** storage
+- Master password authentication
+- **AES-128** encryption with Fernet (symmetric)
+- Add & View credentials
+- Clean and minimal interface
+
+## 🎥 Demo
+
+![Demo GIF or Screenshot](demo.png)  
+📽️ [Watch full video demo](https://link-to-your-demo.com)
+
+## 🛠️ Tech Stack
+
+- Python 3
+- Tkinter (GUI)
+- SQLite (Database)
+- Cryptography (Encryption)
+- getpass (Secure input)
+
+## 🔧 How to Run
+
+```bash
+git clone https://github.com/yourusername/password-manager
+cd password-manager
+pip install -r requirements.txt
+python main.py
